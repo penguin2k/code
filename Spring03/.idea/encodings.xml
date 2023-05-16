@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/book" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/dao/BookDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/dao/impl/BookDaoimpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/dao/impl/DBUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/dao/impl/UserDaoimpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/servelt/Servletbook.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/servelt/loginServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/servelt/registerServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/service/BookService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/service/UserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/service/impl/BookServiceimpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/service/impl/UserServiceimpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.spring01/user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/spring01/config/beanconfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

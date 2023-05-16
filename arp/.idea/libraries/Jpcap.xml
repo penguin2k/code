@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Jpcap">
+    <CLASSES>
+      <root url="file://F:/BaiduNetdiskDownload/Jpcap" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://F:/BaiduNetdiskDownload/Jpcap" />
+    </NATIVE>
+    <SOURCES />
+    <jarDirectory url="file://F:/BaiduNetdiskDownload/Jpcap" recursive="false" />
+  </library>
+</component>

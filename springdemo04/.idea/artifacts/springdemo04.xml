@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springdemo04">
+    <output-path>$PROJECT_DIR$/out/artifacts/springdemo04</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springdemo04/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springdemo04" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:6.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:6.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:6.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:6.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:6.0.3" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.19" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.13" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

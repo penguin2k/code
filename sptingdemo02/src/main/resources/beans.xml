@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd 
+               http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-context.xsd
+">
+<!--&lt;!&ndash;     数据库操作类 构造函数实例化&ndash;&gt;-->
+<!--      <bean id="bookdao" name=""  class="com.dao.impl.BookDaoimpl"/>-->
+<!--    <bean id="userdao" name=""  class="com.dao.impl.UserDaoimpl"/>-->
+<!--&lt;!&ndash;     数据库操作类 工厂方法实例化&ndash;&gt;-->
+<!--&lt;!&ndash;    <bean id="bookdao" name=""  class="com.factory.Bookfactory"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    业务处理类&ndash;&gt;-->
+<!--    <bean id="bookservice" class="com.service.impl.BookServiceimpl">-->
+<!--&lt;!&ndash;        图书服务处理类中注入图书数据库操作类&ndash;&gt;-->
+<!--        <property name="bookdao" ref="bookdao"/>-->
+<!--    </bean>-->
+
+<!--    扫描注解-->
+<context:component-scan base-package="com.dao com.service"/>
+</beans>

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../imag/1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#registerDiv {
+    width: 25%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    background-color: rgba(75, 81, 95, 0.5);
+    box-shadow: rgba(52, 56, 66, 0.5);
+    border-radius: 5px;
+}
+
+#registerMsg {
+    margin: 40px auto;
+    margin-left: 10%;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 10px;
+    text-shadow: 4px 1px 1px #000;
+}
+
+label {
+    margin-left: 15%;
+    color: azure;
+    top: 50px;
+}
+
+span {
+    font-size: large;
+    display: inline-block;
+    min-width: 80px;
+    font-size: 19px;
+    font-family: "楷体", serif;
+}
+
+input {
+    height: 38px;
+    width: 140px;
+    border-radius: 5px;
+    border-style: hidden;
+    outline: none;
+    color: #f0edf3;
+    background-color: rgba(216, 191, 216, 0.5);
+}
+
+label>input {
+    width: 250px;
+    font-size: 16px;
+    margin: 20px auto;
+    padding-left: 15px;
+}
+
+#subDiv {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#subDiv>input {
+    font-size: large;
+    color: rgb(223, 223, 223);
+    font-family: "黑体", serif;
+    margin: 5px 10px;
+}
+
+#subDiv>a {
+    /* text-decoration: none; */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "楷体", serif;
+    color: rgba(223, 223, 223, 0.7);
+}
+
+.login {
+    position: absolute;
+    display: inline-block;
+    top: 95px;
+    margin-left: 10%;
+    color: rgba(223, 223, 223, 0.7);
+    font-size: 18px;
+    font-family: "楷体", serif;
+}
+.login>a {
+    color: rgba(223, 223, 223, 0.7);
+}
+
+input::placeholder {
+    color: rgb(227, 222, 231, 0.7);
+}
+
